@@ -2064,7 +2064,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
-		background:	#2c2c2c;
+		background-color: #2c2c2c;
 		overflow-x: hidden;
 		padding: 6em 0 6em 0;
 	}
@@ -2112,7 +2112,7 @@ input, select, textarea {
 
 	#promo-wrapper {
 		position: relative;
-		background-image: url("images/overlay.png"), url("../../images/promo.jpg");
+		background-image: url(bgimage1.png);
 		background-size: 192px 192px, cover;
 		background-position: top left, center center;
 		color: #fff;

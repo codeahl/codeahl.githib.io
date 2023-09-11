@@ -109,14 +109,14 @@ input, select, textarea {
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
-		color: #52575c;
+		color: #ffffff;
 		line-height: 1.75em;
 		font-size: 15pt;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #52575c;
+		color: #ffffff;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -145,13 +145,13 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #f35858;
+			color: #9ddbff;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
 	strong, b {
 		font-weight: 400;
-		color: #42474c;
+		color: #ffffff;
 	}
 
 	em, i {
@@ -220,7 +220,7 @@ input, select, textarea {
 
 		header > p {
 			display: block;
-			color: #f35858;
+			color: #4d4eaa;
 			padding: 0.75em 0 1em 0;
 			font-size: 1.5em;
 			line-height: 1.5em;
@@ -1907,7 +1907,7 @@ input, select, textarea {
 	form label {
 		display: block;
 		font-weight: 300;
-		color: #52575c;
+		color: #ffffff;
 		margin: 0 0 0.5em 0;
 	}
 
@@ -1943,19 +1943,19 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #555 !important;
+		color: #ffffff !important;
 	}
 
 	form :-moz-placeholder {
-		color: #555 !important;
+		color: #ffffff !important;
 	}
 
 	form ::-moz-placeholder {
-		color: #555 !important;
+		color: #ffffff !important;
 	}
 
 	form :-ms-input-placeholder {
-		color: #555 !important;
+		color: #ffffff !important;
 	}
 
 	form ::-moz-focus-inner {
@@ -2021,7 +2021,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f35858;
+			color: #4d4eaa;
 			border-color: rgba(243, 88, 88, 0.5);
 		}
 
@@ -2100,7 +2100,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #4d4eaa 15%, #9ddbff 55%);
 		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #4d4eaa 15%, #9ddbff 55%);
 		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #4d4eaa 15%, #9ddbff 55%);
-		background-color: #f08c89;
+		background-color: #9ddbff;
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
@@ -2241,7 +2241,7 @@ input, select, textarea {
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span {
-				color: #f35858;
+				color: #4d4eaa;
 			}
 
 		.dropotron.level-0 {
@@ -2303,7 +2303,7 @@ input, select, textarea {
 		#hero .button {
 			background: #fff;
 			border-color: rgba(255, 255, 255, 0);
-			color: #f08c89;
+			color: #9ddbff;
 			font-size: 1.25em;
 		}
 

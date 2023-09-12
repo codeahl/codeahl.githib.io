@@ -58,11 +58,11 @@
 				});
 		//Scroll
 		document.addEventListener('scroll', () => {
-			const hero_header = document.getElementById("nav");
-			if (hero_header.getBoundingClientRect().bottom < document.getElementById("hero").getBoundingClientRect().height) {
-				hero_header.style.backgroundColor = '#aaaaaa';
+			const hero_header = document.getElementById("hero");
+			if (hero_header.getBoundingClientRect().top < document.getElementById("nav").getBoundingClientRect().height) {
+				document.getElementById("nav").style.backgroundColor = '#32346e';
 			} else {
-				hero_header.style.backgroundColor = 'transparent';
+				document.getElementById("nav").style.backgroundColor = 'transparent';
 			}
 		});
 })(jQuery);

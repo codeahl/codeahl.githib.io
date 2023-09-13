@@ -138,7 +138,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #9ddbff;
+			color: #ce3468;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -2054,6 +2054,7 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+
 		}
 
 /* Wrappers */
@@ -2068,7 +2069,7 @@ input, select, textarea {
 
 	#project-main p{
 		text-align: center;
-		max-width: 50%;
+		max-width: 80%;
 		margin: 2em auto;
 	}
 
@@ -2098,6 +2099,10 @@ input, select, textarea {
 		.image-wrapper .image {
 			position: relative;
 			z-index: 2;
+		}
+		
+		#other-proj {
+			margin-top: 8em;
 		}
 
 		.image-wrapper.first:before {
@@ -2140,12 +2145,17 @@ input, select, textarea {
 
 
 	#footer-wrapper {
+		color: black;	
 		-webkit-transform: translate3d(0, 0, 0);
 		position: relative;
 		border-top: solid 1px #c2c7cc;
 		padding: 6em 0 6em 0;
 		background-image: url("images/overlay.png"), url("images/footer.svg");
 		background-size: 128px 128px,				100% 100%;
+	}
+
+	#footer-wrapper h2 {
+		color: black;
 	}
 
 /* Header */
@@ -2193,6 +2203,7 @@ input, select, textarea {
 
 		#nav > ul {
 			margin: 0;
+
 		}
 
 			#nav > ul > li {
@@ -2407,18 +2418,6 @@ input, select, textarea {
 			margin-bottom: 3em;
 		}
 
-/* Copyright */
-
-	#copyright {
-		position: relative;
-		z-index: 1;
-		text-align: center;
-		border-top: solid 1px #d2d7dc;
-		color: #a2a7ac;
-		padding-top: 4em;
-		margin-top: 6em;
-	}
-
 /* Normal */
 
 	@media screen and (max-width: 1280px) {
@@ -2504,8 +2503,8 @@ input, select, textarea {
 		/* Header */
 
 			#nav {
-				position: relative;
-				margin: 0.5em 0 0 0;
+				position: fixed;
+
 				line-height: 2.25em;
 				height: 2.25em;
 			}
@@ -2536,30 +2535,6 @@ input, select, textarea {
 					display: none;
 				}
 
-		/* Promo */
-
-			#promo {
-				padding: 1.75em 2.5em 1.75em 2.5em;
-				display: inline-block;
-			}
-
-				#promo .button {
-					font-size: 1.25em;
-				}
-
-				#promo h2 {
-					display: block;
-					margin: 0 0 1em 0;
-					font-size: 1.5em;
-				}
-
-		/* Copyright */
-
-			#copyright {
-				padding-top: 2em;
-				margin-top: 3em;
-			}
-
 	}
 
 /* Narrower */
@@ -2581,6 +2556,9 @@ input, select, textarea {
 				margin-bottom: 0;
 			}
 
+			video {
+				width:80%;
+				}
 		/* Sections/Article */
 
 			section, article {
@@ -3047,6 +3025,7 @@ input, select, textarea {
 				text-align: center;
 			}
 
+			
 		/* Header */
 
 			#logo {

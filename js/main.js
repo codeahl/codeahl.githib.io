@@ -60,7 +60,7 @@
 		document.addEventListener('scroll', () => {
 			const hero_header = document.getElementById("hero");
 			if (hero_header.getBoundingClientRect().top < document.getElementById("nav").getBoundingClientRect().height) {
-				document.getElementById("nav").style.backgroundColor = '#32346e';
+				document.getElementById("nav").style.backgroundColor = '#000000';
 			} else {
 				document.getElementById("nav").style.backgroundColor = 'transparent';
 			}

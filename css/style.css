@@ -2080,13 +2080,19 @@ input, select, textarea {
 			content: '';
 			display: block;
 			width: 2000%;
-			height: 100%;
+			height: 15vh;
 			position: absolute;
 			left: -1000%;
 			top: 0;
 			z-index: 1;
 			box-shadow: inset 0px 0px 0px 1px #e8e8e8;
-			background: #f6f8fb url("images/image-wrapper.svg");
+			background-image: url("images/header.svg");
+			background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #ce3468 15%, #e6964b 55%);
+			background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #ce3468 15%, #e6964b 55%);
+			background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #ce3468 15%, #e6964b 55%);
+			background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(90deg, #ce3468 50%, #e6964b 55%);
+			background-color: #e6964b;
+			background-size: contain;
 		}
 
 	#header-wrapper {
@@ -2157,7 +2163,8 @@ input, select, textarea {
 		height: 4em;
 		line-height: 4em;
 		overflow: hidden;
-		position: fixed; 
+		position: fixed;
+		transition: background-color 0.5s ease;
 	}
 
 		#nav > ul {

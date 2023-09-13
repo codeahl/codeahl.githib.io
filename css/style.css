@@ -2188,7 +2188,7 @@ input, select, textarea {
 		border-color: rgba(255, 255, 255, 0.75);
 		border-top: 0;
 		border-radius: 0 0 0.35em 0.35em;
-		background: rgba(255, 255, 255, 0.15);
+		background: #1f1f1f;
 		border-color: #fff;
 		z-index: 10;
 		text-align: center;

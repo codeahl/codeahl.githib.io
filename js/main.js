@@ -56,26 +56,25 @@
 					target: $body,
 					visibleClass: 'navPanel-visible'
 				});
-		//Scroll
+		Scroll
 		document.addEventListener('scroll', () => {
 			const hero_header = document.getElementById("hero");
-			if (hero_header.getBoundingClientRect().top < document.getElementById("nav").getBoundingClientRect().height) {
-				document.getElementById("nav").style.backgroundImage = 'url("header.svg")';
-				document.getElementById("nav").style.backgroundColor = 'black';
-				document.getElementById("nav").style.borderBottom = 'solid white 3px';
-				document.getElementById("nav").style.border = 'solid white 2px';
-				if(document.getElementById("about").getBoundingClientRect().top < document.getElementById("nav").getBoundingClientRect().bottom) {
-					document.getElementById("nav").style.backgroundImage = 'url("images/header.svg")';
-					document.getElementById("nav").style.backgroundImage = 'url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #ce3468 15%, #e6964b 55%)';
-					document.getElementById("nav").style.backgroundImage = 'url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #ce3468 15%, #e6964b 55%)';
-					document.getElementById("nav").style.backgroundImage = 'url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #ce3468 15%, #e6964b 55%)';
-					document.getElementById("nav").style.backgroundImage = 'url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #ce3468 15%, #e6964b 55%)';
-					document.getElementById("nav").style.backgroundColor = 'transparent';
-				}
+			if(document.getElementById("about").getBoundingClientRect().bottom <= document.getElementById("nav").getBoundingClientRect().height) {;
+				document.getElementById("nav").style.backgroundImage = 'url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #ce3468 15%, #e6964b 55%)';
+				document.getElementById("nav").style.backgroundImage = 'url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #ce3468 15%, #e6964b 55%)';
+				document.getElementById("nav").style.backgroundImage = 'url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #ce3468 15%, #e6964b 55%)';
+				document.getElementById("nav").style.backgroundImage = 'url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #ce3468 15%, #e6964b 55%)';
+				document.getElementById("nav").style.backgroundColor = 'transparent';
+			}
+			// if (hero_header.getBoundingClientRect().top < document.getElementById("nav").getBoundingClientRect().height) {
+			// 	document.getElementById("nav").style.backgroundImage = 'url("header.svg")';
+			// 	document.getElementById("nav").style.backgroundColor = 'black';
+			// 	document.getElementById("nav").style.borderBottom = 'solid white 3px';
+			// 	document.getElementById("nav").style.border = 'solid white 2px';
+				// }
 
-			} 
 			else {
-				document.getElementById("nav").style.background = 'rgba(255, 255, 255, 0.15)';
+				document.getElementById("nav").style.background = '#2c2c2c';
 				document.getElementById("nav").style.border = 'solid 1px  rgba(255, 255, 255, 0.75)';
 				document.getElementById("nav").style.borderColor = '#fff';
 			}

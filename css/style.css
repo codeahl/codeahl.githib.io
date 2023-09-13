@@ -2066,6 +2066,31 @@ input, select, textarea {
 		padding: 6em 0 6em 0;
 	}
 
+	#project-main p{
+		text-align: center;
+		max-width: 50%;
+		margin: 2em auto;
+	}
+
+	#project-main {
+		text-align: center;
+	}
+
+	video {
+		width: 50vw;
+		height: auto;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	video::-webkit-media-controls-volume-slider {
+		display:none;
+		}
+		
+		video::-webkit-media-controls-mute-button {
+		display:none;
+		}
+
 	.image-wrapper {
 		position: relative;
 	}
@@ -2149,13 +2174,11 @@ input, select, textarea {
 
 	#nav {
 		border: solid 1px;
-		border-color: #fff;
 		border-color: rgba(255, 255, 255, 0.75);
 		border-top: 0;
 		border-radius: 0 0 0.35em 0.35em;
 		background: rgba(255, 255, 255, 0.15);
 		border-color: #fff;
-		border-color: rgba(255, 255, 255, 0.75);
 		z-index: 10;
 		text-align: center;
 		top: 0;

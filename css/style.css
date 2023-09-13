@@ -135,7 +135,6 @@ input, select, textarea {
 		transition: color 0.25s ease-in-out, border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 		color: inherit;
 		text-decoration: none;
-		border-bottom: dotted 1px #62676c;
 	}
 
 		a:hover {
@@ -2140,12 +2139,6 @@ input, select, textarea {
 			width: 100%;
 			height: 4em;
 			line-height: 4em;
-			background: rgba(255, 255, 255, 0.15);
-			border: solid 1px;
-			border-color: #fff;
-			border-color: rgba(255, 255, 255, 0.75);
-			border-top: 0;
-			border-radius: 0 0 0.35em 0.35em;
 			color: #fff;
 			display: inline-block;
 			font-weight: 600;
@@ -2155,6 +2148,14 @@ input, select, textarea {
 		}
 
 	#nav {
+		border: solid 1px;
+		border-color: #fff;
+		border-color: rgba(255, 255, 255, 0.75);
+		border-top: 0;
+		border-radius: 0 0 0.35em 0.35em;
+		background: rgba(255, 255, 255, 0.15);
+		border-color: #fff;
+		border-color: rgba(255, 255, 255, 0.75);
 		z-index: 10;
 		text-align: center;
 		top: 0;

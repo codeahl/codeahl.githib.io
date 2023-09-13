@@ -60,9 +60,18 @@
 		document.addEventListener('scroll', () => {
 			const hero_header = document.getElementById("hero");
 			if (hero_header.getBoundingClientRect().top < document.getElementById("nav").getBoundingClientRect().height) {
-				document.getElementById("nav").style.backgroundColor = '#000000';
+				document.getElementById("nav").style.backgroundColor = '#262626';
+				document.getElementById("nav").style.borderBottom = 'solid white 3px';
+				document.getElementById("nav").style.borderLeft = 'solid white 3px';
+				document.getElementById("nav").style.borderRight = 'solid white 3px';
+
+
 			} else {
-				document.getElementById("nav").style.backgroundColor = 'transparent';
+				document.getElementById("nav").style.background = 'rgba(255, 255, 255, 0.15)';
+				document.getElementById("nav").style.border = 'solid 1px  rgba(255, 255, 255, 0.75)';
+				document.getElementById("nav").style.borderColor = '#fff';
+
+
 			}
 		});
 })(jQuery);

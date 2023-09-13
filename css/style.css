@@ -137,8 +137,17 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
-		a:hover {
+		#project-link {
 			color: #ce3468;
+		}
+
+		#project-link:hover {
+			color: #e6964b;
+		}
+
+
+		a:hover {
+			color: #e6964b;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -2011,14 +2020,6 @@ input, select, textarea {
 		outline: 0;
 	}
 
-		input[type="button"]:hover,
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		button:hover,
-		.button:hover {
-			color: #9ddbff;
-			border-color: #639ab9;
-		}
 
 /* Icons */
 
@@ -2198,7 +2199,10 @@ input, select, textarea {
 		line-height: 4em;
 		overflow: hidden;
 		position: fixed;
-		transition: background-color 0.5s ease;
+		transition: background 0.5s ease-in-out;
+		/* -webkit-transition: background-image 0.5s ease-in-out;
+		transition: background-image 0.5s ease-in-out;
+		-moz-transition: background-image 0.5s ease-in-out; */
 	}
 
 		#nav > ul {
@@ -2228,6 +2232,10 @@ input, select, textarea {
 					-o-transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 					-ms-transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 					transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+				}
+
+				#nav > ul > li > span:hover, #nav > ul > li > a:hover {
+					color: #dddddd;
 				}
 
 				#nav > ul > li.active > span, #nav > ul > li.active > a {

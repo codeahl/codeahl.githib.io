@@ -1,133 +1,184 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html lang="en">
-	<head>
-		<title>Connor Deahl Personal Website</title>
-		<link rel="icon" type="image/x-icon" href="./css/images/icons8-backend-development-48.png">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="css/style.css" />
-	</head>
-	<body class="homepage is-preload">
-		<div id="page-wrapper">
+  <head>
+    <title>Connor Deahl Personal Website</title>
+    <link rel="icon" href="/favicon.ico" />
 
-			<!-- Header -->
-				<div id="header-wrapper">
-					<div id="header" class="container">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="homepage is-preload">
+    <div id="page-wrapper">
+      <!-- Header -->
+      <div id="header-wrapper">
+        <div id="header" class="container">
+          <!-- Nav -->
+          <nav id="nav">
+            <!-- <h1 id="logo"><a href="index.html">Home</a></h1> -->
+            <ul>
+              <li style="white-space: nowrap">
+                <a href="index.html#about">About</a>
+              </li>
+              <li style="white-space: nowrap">
+                <a href="index.html#projects">Projects</a>
+              </li>
+              <li class="break"><a href="index.html#contact">Contact</a></li>
+              <li style="white-space: nowrap">
+                <a href="https://github.com/codeahl" target="_blank">GitHub</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
 
-						<!-- Nav -->
-							<nav id="nav">
-								<!-- <h1 id="logo"><a href="index.html">Home</a></h1> -->
-								<ul>
-									<li style="white-space: nowrap;"><a href="index.html#about">About</a></li>
-									<li style="white-space: nowrap;"><a href="index.html#projects">Projects</a></li>
-									<li class="break"><a href="index.html#contact">Contact</a></li>
-									<li style="white-space: nowrap;"><a href="https://github.com/codeahl" target="_blank">GitHub</a></li>
-								</ul>
-							</nav>
+        <!-- Hero -->
+        <section id="hero" class="container">
+          <header>
+            <h2>Connor Deahl</h2>
+            <h3 id="se-student">Software Engineering Student</h3>
+          </header>
+        </section>
+      </div>
 
-					</div>
+      <!-- Features 1 -->
+      <div class="wrapper" id="about">
+        <div class="container">
+          <div class="row">
+            <section class="col-6 col-12-narrower feature">
+              <header>
+                <h2>About<br /></h2>
+              </header>
+              <p>
+                I have been involved and interested in all things computers
+                since before I attended high school. However, in 2020, with too
+                much time on my hands, I began to teach myself the fundementals
+                of programming. Over the years I have become more fluent in many
+                languages, on top of applying my skills to problem solving in
+                the classroom. I am currently a student attending Iowa State
+                University in the Software Engineering program with an expeced
+                graduation year of late 2026.
+              </p>
+            </section>
+            <section class="col-6 col-12-narrower feature">
+              <div class="skills-about">
+                <header>
+                  <h2>Skills</h2>
+                </header>
+                <p>
+                  I am well versed in OOP, using mostly Java and Python, Web
+                  Development(HTML, CSS, JS), C/C++, CAD. With practice I have
+                  developed a strong understanding of data structures and search
+                  algorithims. On top of the computer based skills, I clearly
+                  communicate my ideas and additions in a collaborative team
+                  based environment. Strong work ethic, and I put effort towards
+                  learning regardless of the difficulty of the task.
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
 
-					<!-- Hero -->
-						<section id="hero" class="container">
-							<header>
-								<h2>Connor Deahl</h2>
-								<h3 id="se-student">Software Engineering Student</h3>
-							</header>
-						</section>
+      <!-- Features 2 -->
+      <div class="wrapper" id="projects">
+        <section class="container">
+          <header class="major">
+            <h2>Projects</h2>
+          </header>
+          <div id="project-main">
+            <p>
+              Built a logic circuit sandbox in order to help students get a
+              visual and hands on understanding of bitwise logic and basic ALU
+              design. This was built entirely from scratch in Java.
+            </p>
+            <video controls="controls">
+              <source src="projectDemo.mp4" type="video/mp4" />
+            </video>
+            <p>
+              This project uses keyboard input form the user and mouse inputs to
+              place a gate or node which are represented by a colored square
+              used, those being: AND, OR, NOT, NAND, NOR, XOR, and XNOR. The
+              light blue squares are the intial inputs, or switches, which give
+              an output value of either 1 or 0. the AND gate is colored white,
+              the Or gate yellow, the NOT gate dark blue, the NAND gate red, the
+              NOR gate green, the XOR gate pink, and the XNOR gate orange. The
+              output squares are a shade of gray, either light gray (indicating
+              on) or dark gray (indicating off).
+            </p>
+            <p>
+              Each node which can be placed has a set keyboard input on the
+              numpad, and the ability to translate your screen in all 4
+              directions is controlled by the arrow keys. On top of this, a zoom
+              function was implemented using scalars to increase and decrease
+              the size of each object about the center of the panel.
+            </p>
+            <p>
+              This video demonstration shows the creation of a full-adder
+              circuit in the program. This works by connecting each of the
+              gates, clicking on the output of the last node first, and then the
+              node which you would like to have the input as.
+            </p>
+            <p>
+              The purpose of this website was not only to challenge ourselves,
+              but to be used as a way for students who have a small amount or no
+              experience with logic circuits and bitwise operation
+            </p>
+            <a
+              id="project-link"
+              href="https://github.com/MagneticStar/ProjectOne"
+              >Project Link</a
+            >
+            <header class="major" id="other-proj">
+              <h2>Other Projects</h2>
+            </header>
+            <p>
+              Created and designed multiple HTML/CSS/JS websites as freelance
+              work and practice.
+            </p>
+            <p>
+              Created multiple smaller projects in Python, JavaScript, Java, and
+              C as practice to help better my understanding and applications of
+              the languages.
+            </p>
+          </div>
+        </section>
+      </div>
 
-				</div>
+      <!-- Footer -->
+      <div id="footer-wrapper">
+        <div id="footer" class="container">
+          <header class="major">
+            <h2 id="contact">Contact Me</h2>
+          </header>
+          <ul class="divided icons col-6 col-12-mobile">
+            <li class="icon brands fa-github">
+              <a href="https://github.com/codeahl"
+                ><span class="extra">GitHub</span></a
+              >
+            </li>
+            <li class="icon brands fa-discord">
+              <a href="https://discordapp.com/users/721070206109220875"
+                ><span class="extra">Discord</span></a
+              >
+            </li>
+            <li class="icon brands fa-google">
+              <span class="extra">codeahl@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-			<!-- Features 1 -->
-				<div class="wrapper" id="about">
-					<div class="container">
-						<div class="row">
-							<section class="col-6 col-12-narrower feature">
-								<header>
-									<h2>About<br />
-									</h2>
-								</header>
-								<p> I have been involved and interested in all things computers since before I attended high school. 
-									However, in 2020, with too much time on my hands, I began to teach myself the fundementals of programming. Over the years I 
-									have become more fluent in many languages, on top of applying my skills to problem solving in the classroom. I am currently a student 
-									attending Iowa State University in the Software Engineering program with an expeced graduation year of late 2026.
-								</p>
-							</section>
-							<section class="col-6 col-12-narrower feature">
-								<div class="skills-about">
-								<header>
-									<h2>Skills</h2>
-								</header>
-									<p>I am well versed in OOP, using mostly Java and Python, Web Development(HTML, CSS, 
-										JS), C/C++, CAD. With practice I have developed a strong understanding of data structures and search algorithims.
-										 On top of the computer based skills, I clearly communicate my ideas and additions in a collaborative team based environment.
-										Strong work ethic, and I put effort towards learning regardless of the difficulty of the task.
-									</p>
-								</div>
-							</section>
-						</div>
-					</div>
-				</div>
-
-
-			<!-- Features 2 -->
-				<div class="wrapper" id="projects">
-					<section class="container">
-						<header class="major">
-							<h2>Projects</h2>
-						</header>
-						<div id="project-main">
-								<p>Built a logic circuit sandbox in order to help students get a visual and hands on understanding of bitwise logic and basic ALU design. This was built entirely from scratch in Java.</p>
-								<video controls="controls">
-									<source src="projectDemo.mp4" type="video/mp4" />
-								</video>
-								<p>This project uses keyboard input form the user and mouse inputs to place a gate or node which are represented by a colored square 
-								used, those being: AND, OR, NOT, NAND, NOR, XOR, and XNOR. The light blue squares are the intial inputs, or switches, which give an 
-								output value of either 1 or 0. the AND gate is colored white, the Or gate yellow, the NOT gate dark blue, the NAND gate red, the NOR 
-								gate green, the XOR gate pink, and the XNOR gate orange. The output squares are a shade of gray, either light gray (indicating on) or dark gray 
-								(indicating off).</p>
-								<p>Each node which can be placed has a set keyboard input on the numpad, and the ability to translate your screen in all 4 directions is controlled 
-									by the arrow keys. On top of this, a zoom function was implemented using scalars to increase and decrease the size of each object about the center of the panel.
-								</p>
-								<p>This video demonstration shows the creation of a full-adder circuit in the program. This works by connecting each of the gates, clicking on the output of the 
-								last node first, and then the node which you would like to have the input as.</p>
-								<p>The purpose of this website was not only to challenge ourselves, but to be used as a way for students who have a small amount or no experience with logic circuits 
-									and bitwise operation
-								</p>
-								<a id="project-link" href="https://github.com/MagneticStar/ProjectOne">Project Link</a>
-								<header class="major" id="other-proj">
-									<h2>Other Projects</h2>
-								</header>
-								<p>Created and designed multiple HTML/CSS/JS websites as freelance work and practice.</p>
-								<p>Created multiple smaller projects in Python, JavaScript, Java, and C as practice to help better my understanding and applications of the languages.</p>
-						</div>
-
-					</section>
-				</div>
-
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<div id="footer" class="container">
-						<header class="major">
-							<h2 id="contact">Contact Me</h2>
-						</header>
-									<ul class="divided icons col-6 col-12-mobile">
-										<li class="icon brands fa-github"><a href="https://github.com/codeahl"><span class="extra">GitHub</span></a></li>
-										<li class="icon brands fa-discord"><a href="https://discordapp.com/users/721070206109220875"><span class="extra">Discord</span></a></li>
-										<li class="icon brands fa-google"><span class="extra">codeahl@gmail.com</span></li>
-						</div>
-					</div>
-				</div>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="js/jquery.min.js"></script>
-			<script src="js/jquery.dropotron.min.js"></script>
-			<script src="js/browser.min.js"></script>
-			<script src="js/breakpoints.min.js"></script>
-			<script src="js/util.js"></script>
-			<script src="js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <script src="js/browser.min.js"></script>
+    <script src="js/breakpoints.min.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

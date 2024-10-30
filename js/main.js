@@ -65,7 +65,7 @@
         hero_header.getBoundingClientRect().height
       ) {
         document.getElementById("nav").style.backgroundColor =
-          "rgba(0, 0, 0, 0.2)";
+          "rgba(255, 255, 255, 0.2)";
       }
 
       if (
